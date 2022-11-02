@@ -14,7 +14,6 @@ class CalculationError(Exception):
 
 
 def calculate(a: int, b: int):
-    c = a/0
     if a == 2:
         # this func will fail
         raise CalculationError()
